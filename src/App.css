@@ -90,12 +90,26 @@ nav.navbar {
   z-index: 10;
   transition:  0.32s ease-in-out;
 }
+nav.navbar .r-col {
+  display: flex;
+}
+button.navbar-toggler {
+  margin-left: 20px;
+}
+nav.navbar button.navbar-toggler span {
+  background-color: #fff;
+  width: 30px;
+  height: 5px;
+  display: block;
+  margin: 3px 0;
+  opacity: .6;
+}
 nav.navbar.scrolled {
   padding: 10px 0;
   background-color: #042632;
 }
 nav.navbar a.navbar-brand {
-    width: 9%;
+    width: 15%;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
@@ -113,10 +127,29 @@ span.navbar-text {
     display: flex;
     align-items: center;
 }
+@media screen and (max-width:992px) { 
+  .social-icon.lg {
+    display: none;
+  }
+}
+
 .social-icon {
     display: inline-block;
     margin-left: 14px;
 }
+
+@media screen and (max-width:992px) { 
+  .social-icon.lg {
+    display: none;
+  }
+}
+
+@media screen and (min-width:993px) { 
+  .social-icon.md {
+    display: none;
+  }
+}
+
 .social-icon a {
     width: 42px;
     height: 42px;

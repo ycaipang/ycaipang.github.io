@@ -1,5 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
-import logo from "../assets/img/code-blooded-no-bg.png"
+import logo from "../assets/img/yc-logo-no-bg.png"
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/GitHub.svg';
 import navIcon3 from '../assets/img/resume.svg';
