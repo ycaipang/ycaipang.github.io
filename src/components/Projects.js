@@ -46,7 +46,7 @@ export const Projects = () => {
       title: "FlagCity",
       description: "Design & Development",
       imgUrl: projImg6,
-      link: "https://www.flagcity.com.au/",
+      link: "https://darmee.dreamhosters.com/",
     },
   ];
 
